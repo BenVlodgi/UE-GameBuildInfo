@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GameBuildInfo",
+	"Description": "Provides blueprint accessible diagnostic info about the current build including Perforce Revision & Build Date.",
+	"Category": "Misc",
+	"CreatedBy": "Dream Seed",
+	"CreatedByURL": "https://github.com/BenVlodgi/UE-GameBuildInfo",
+	"DocsURL": "https://github.com/BenVlodgi/UE-GameBuildInfo/blob/main/README.md",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/BenVlodgi/UE-GameBuildInfo/issues",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GameBuildInfo",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	]
+}
