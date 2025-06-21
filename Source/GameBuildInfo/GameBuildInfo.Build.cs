@@ -38,7 +38,7 @@ public class GameBuildInfo : ModuleRules
             {
                 var p4 = new Process();
                 p4.StartInfo.FileName = "p4";
-                p4.StartInfo.Arguments = "changes -m1 //...";
+                p4.StartInfo.Arguments = "changes -m1 ...#have";
                 p4.StartInfo.UseShellExecute = false;
                 p4.StartInfo.RedirectStandardOutput = true;
                 p4.StartInfo.CreateNoWindow = true;
